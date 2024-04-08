@@ -6,6 +6,12 @@
   overflow-x: hidden;
 }
 
+.bodycontent {
+  text-align: center;
+  margin: 2em;
+  text-align: center;
+}
+
 .summary {
   width: 500px;
   margin: auto;

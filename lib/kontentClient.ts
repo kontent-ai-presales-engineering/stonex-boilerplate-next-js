@@ -2,7 +2,7 @@
 
 
 import { createDeliveryClient, camelCasePropertyNameResolver } from '@kontent-ai/delivery-sdk'
-import { HeroUnit } from '../models';
+import { HeroUnit, Page } from '../models';
 
 const sourceTrackingHeaderName = 'X-KC-SOURCE'
 
@@ -25,3 +25,10 @@ export async function getHeroUnit() : Promise<HeroUnit> {
   return (response.data.item);
 }
 
+export async function getHomepage() : Promise<Page> {
+  const response = await client
+    .item<Page>('homepage')
+    .toPromise()
+
+  return (response.data.item);
+}

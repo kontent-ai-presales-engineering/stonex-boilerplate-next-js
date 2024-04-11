@@ -14,7 +14,7 @@ jobs:
 
     runs-on: ubuntu-latest
     env:
-      KONTENT_PROJECT_ID: 975bf280-fd91-488c-994c-2f04416e5ee3
+      KONTENT_PROJECT_ID: f7099aef-188e-00e9-af3b-a9caa5b02a77
 
     steps:
     - uses: actions/checkout@v2

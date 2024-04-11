@@ -7,7 +7,7 @@ import { HeroUnit, Page } from '../models';
 const sourceTrackingHeaderName = 'X-KC-SOURCE'
 
 const client = createDeliveryClient({
-  projectId: process.env.KONTENT_PROJECT_ID || "975bf280-fd91-488c-994c-2f04416e5ee3",
+  projectId: process.env.KONTENT_PROJECT_ID || "f7099aef-188e-00e9-af3b-a9caa5b02a77",
   globalHeaders: (_queryConfig) => [
     {
       header: sourceTrackingHeaderName,
